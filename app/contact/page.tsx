@@ -101,7 +101,7 @@ export default function ContactPage() {
                       value={form.phone}
                       onChange={handleChange}
                       required
-                      placeholder="+91 99999 99999"
+                      placeholder="+44 7429018743"
                       className="w-full border border-wood-200 rounded-xl px-4 py-3 text-wood-900 placeholder-wood-300 focus:outline-none focus:border-wood-500 focus:ring-2 focus:ring-wood-100 transition-all text-sm bg-cream-50"
                     />
                   </div>
@@ -165,7 +165,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <p className="text-xs text-wood-500 uppercase tracking-wide mb-0.5">WhatsApp</p>
-                      <p className="text-wood-800 font-medium">+91 99999 99999</p>
+                      <p className="text-wood-800 font-medium">+44 74290 18743</p>
                     </div>
                   </a>
 
@@ -178,7 +178,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <p className="text-xs text-wood-500 uppercase tracking-wide mb-0.5">Phone</p>
-                      <p className="text-wood-800 font-medium">+91 99999 99999</p>
+                      <p className="text-wood-800 font-medium">+44 74290 18743</p>
                     </div>
                   </a>
 

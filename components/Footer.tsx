@@ -119,7 +119,7 @@ export default function Footer() {
                   className="flex items-start gap-3 text-sm text-white/60 hover:text-wood-300 transition-colors duration-200"
                 >
                   <Phone size={15} className="text-wood-500 mt-0.5 shrink-0" />
-                  +91 99999 99999
+                  +44 74290 18743
                 </a>
               </li>
               <li>
