@@ -82,19 +82,19 @@ export const stats = [
 export const testimonials = [
   {
     name: "Priya Sharma",
-    location: "Mumbai",
+    location: "South Hall",
     quote: "SR Kitchen transformed our entire home. The kitchen they built is not just functional — it's a work of art. Every detail was perfect.",
     rating: 5,
   },
   {
-    name: "Rajesh Mehta",
-    location: "Pune",
+    name: "Paul",
+    location: "Birmingham UK",
     quote: "We got our wardrobes and bedroom done from SR Kitchen. The quality of wood and finishing is exceptional. Highly recommend!",
     rating: 5,
   },
   {
-    name: "Anita Desai",
-    location: "Bangalore",
+    name: "Alex Parker",
+    location: "London",
     quote: "Professional team, on-time delivery, and beautiful results. Our modular kitchen exceeded all our expectations.",
     rating: 5,
   },
