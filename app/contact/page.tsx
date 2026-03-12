@@ -189,7 +189,7 @@ export default function ContactPage() {
                     <div>
                       <p className="text-xs text-wood-500 uppercase tracking-wide mb-0.5">Location</p>
                       <p className="text-wood-800">Your City, State</p>
-                      <p className="text-wood-600 text-sm">India — 000 000</p>
+                      <p className="text-wood-600 text-sm">United Kingdom — 000 000</p>
                     </div>
                   </div>
                 </div>
