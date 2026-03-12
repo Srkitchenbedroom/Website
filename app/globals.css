@@ -5,9 +5,9 @@
 @tailwind utilities;
 
 :root {
-  --color-wood-primary: #a06c28;
-  --color-wood-dark: #5c3c18;
-  --color-cream: #fdf8f0;
+  --color-primary: #ffffff;
+  --color-secondary: #f5f5f5;
+  --color-background: #fafafa;
   --color-charcoal: #1a1614;
 }
 
@@ -15,19 +15,30 @@
 html { scroll-behavior: smooth; }
 
 body {
-  background-color: #fdf8f0;
+  background-color: #fafafa;
   color: #1a1614;
   font-family: 'DM Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
+/* Scrollbar */
 ::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-track { background: #f5e8d0; }
-::-webkit-scrollbar-thumb { background: #a06c28; border-radius: 3px; }
-::selection { background: #e8cc9a; color: #1a1614; }
+::-webkit-scrollbar-track { background: #eeeeee; }
+::-webkit-scrollbar-thumb { background: #888888; border-radius: 3px; }
 
-.gold-shimmer {
-  background: linear-gradient(90deg, #a06c28 0%, #d4a55e 25%, #c08840 50%, #d4a55e 75%, #a06c28 100%);
+/* Text selection */
+::selection { background: #dcdcdc; color: #1a1614; }
+
+/* Neutral shimmer instead of gold */
+.neutral-shimmer {
+  background: linear-gradient(
+    90deg,
+    #666 0%,
+    #999 25%,
+    #777 50%,
+    #999 75%,
+    #666 100%
+  );
   background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -40,20 +51,25 @@ body {
   100% { background-position: 200% center; }
 }
 
+/* Masonry grid */
 .masonry-grid {
   columns: 3;
   column-gap: 16px;
 }
+
 .masonry-item {
   break-inside: avoid;
   margin-bottom: 16px;
 }
+
 @media (max-width: 1024px) { .masonry-grid { columns: 2; } }
 @media (max-width: 640px) { .masonry-grid { columns: 1; } }
 
+/* WhatsApp pulse */
 @keyframes wa-pulse {
   0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.4); }
   70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
   100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
 }
+
 .wa-pulse { animation: wa-pulse 2s infinite; }
