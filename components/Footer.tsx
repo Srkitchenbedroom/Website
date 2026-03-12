@@ -124,7 +124,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://maps.google.com"
+                  href="https://maps.app.goo.gl/NQxDZJmxfHZfmibB7"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-start gap-3 text-sm text-white/60 hover:text-wood-300 transition-colors duration-200"

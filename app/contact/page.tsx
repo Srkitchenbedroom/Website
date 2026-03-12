@@ -18,7 +18,7 @@ export default function ContactPage() {
     const msg = encodeURIComponent(
       `Hi, I'm ${form.name}.\nPhone: ${form.phone}\n\n${form.message || "I'm interested in your furniture services."}`
     );
-    window.open(`https://wa.me/919999999999?text=${msg}`, "_blank");
+    window.open(`https://wa.me/447429018743?text=${msg}`, "_blank");
     setSubmitted(true);
   };
 
@@ -128,7 +128,7 @@ export default function ContactPage() {
                       Send via WhatsApp
                     </button>
                     <a
-                      href={`https://wa.me/919999999999`}
+                      href={`https://wa.me/447429018743`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex-1 flex items-center justify-center gap-2 bg-wood-700 hover:bg-wood-600 text-white py-3.5 rounded-xl text-sm font-medium transition-colors duration-200"
@@ -155,7 +155,7 @@ export default function ContactPage() {
 
                 <div className="space-y-5">
                   <a
-                    href="https://wa.me/919999999999"
+                    href="https://wa.me/447429018743"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-start gap-4 group"
@@ -170,7 +170,7 @@ export default function ContactPage() {
                   </a>
 
                   <a
-                    href="tel:+919999999999"
+                    href="tel:+447429018743"
                     className="flex items-start gap-4 group"
                   >
                     <div className="w-11 h-11 bg-wood-100 rounded-xl flex items-center justify-center shrink-0 group-hover:bg-wood-200 transition-colors">

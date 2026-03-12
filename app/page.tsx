@@ -74,7 +74,7 @@ export default function HomePage() {
               View Our Work <ArrowRight size={16} />
             </Link>
             <a
-              href="https://wa.me/919999999999?text=Hi%2C%20I%27m%20interested%20in%20custom%20furniture"
+              href="https://wa.me/447429018743?text=Hi%2C%20I%27m%20interested%20in%20custom%20furniture"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-[#25D366] hover:bg-[#20ba58] text-white px-8 py-4 rounded-full text-sm tracking-wide transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5"
@@ -353,7 +353,7 @@ export default function HomePage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/919999999999?text=Hi%2C%20I%27d%20like%20a%20free%20consultation"
+                href="https://wa.me/447429018743?text=Hi%2C%20I%27m%20interested%20in%20custom%20furniture"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 bg-[#25D366] text-white px-8 py-4 rounded-full text-sm tracking-wide transition-all duration-300 hover:bg-[#20ba58] hover:-translate-y-0.5 hover:shadow-lg"

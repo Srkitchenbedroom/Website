@@ -83,7 +83,7 @@ export default function CategoriesPage() {
                   </p>
                   <div className="flex items-center gap-3">
                     <a
-                      href={`https://wa.me/919999999999?text=Hi%2C%20I%27m%20interested%20in%20${encodeURIComponent(cat.title)}`}
+                      href={`https://wa.me/447429018743?text=Hi%2C%20I%27m%20interested%20in%20${encodeURIComponent(cat.title)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-1.5 bg-[#25D366] text-white text-xs px-4 py-2 rounded-full hover:bg-[#20ba58] transition-colors"

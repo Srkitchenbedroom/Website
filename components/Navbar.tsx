@@ -79,7 +79,7 @@ export default function Navbar() {
               </Link>
             ))}
             <a
-              href="https://wa.me/919999999999?text=Hi%2C%20I%27m%20interested%20in%20your%20furniture%20services"
+              href="https://wa.me/447429018743?text=Hi%2C%20I%27m%20interested%20in%20your%20furniture%20services"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-wood-600 hover:bg-wood-700 text-white text-sm px-4 py-2 rounded-full transition-all duration-200 hover:shadow-lg hover:shadow-wood-300/30"
@@ -135,7 +135,7 @@ export default function Navbar() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5 }}
-              href="https://wa.me/919999999999"
+              href="https://wa.me/447429018743"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 bg-green-500 text-white text-lg px-6 py-4 rounded-2xl"
